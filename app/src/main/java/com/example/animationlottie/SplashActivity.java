@@ -36,8 +36,10 @@ public class SplashActivity extends AppCompatActivity {
         super.onResume();
 
 
-        txt.animate().translationY(-1400).setDuration(1000).setStartDelay(0);
+        txt.animate().translationY(-1500).setDuration(1000).setStartDelay(0);
+        txt.animate().translationX(2000).setDuration(1500).setStartDelay(2500);
         lottie.animate().translationX(2000).setDuration(1500).setStartDelay(2500);
+//        txt.animate().translationX(2000).setDuration(1500).setStartDelay(2500);
 
         new Handler().postDelayed(new Runnable() {
             @Override

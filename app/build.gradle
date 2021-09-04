@@ -39,4 +39,8 @@ dependencies {
 
     
     implementation "com.airbnb.android:lottie:3.7.0"
+
+
+//    implementation 'com.github.lukedeighton:wheelview:0.4.2'
+//    implementation 'com.github.mmoamenn:LuckyWheel_Android:0.1.1'
 }
